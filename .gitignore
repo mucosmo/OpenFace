@@ -105,3 +105,8 @@ lib/local/CppInerop/Debug/
 
 # IDE-generated folders
 .idea
+
+opencv*/
+dlib*/
+assets/
+build*/
