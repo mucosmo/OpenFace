@@ -110,3 +110,4 @@ opencv*/
 dlib*/
 assets/
 build*/
+processed/*
