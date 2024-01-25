@@ -12,6 +12,8 @@ const videoPath = videos.map(video => {
 const featurePath = '/data/OpenFace/build/bin/FeatureExtraction'
 const openfaceStr = [featurePath, videoPath.map(video => `-f ${video}`).join(' '), '-2Dfp'].join(' ');
 
+// /data/OpenFace/build/bin/FeatureExtraction -f /data/OpenFace/assets/bosideng_9s.mp4 -2Dfp 
+
 console.log(openfaceStr)
 getFrame()
 

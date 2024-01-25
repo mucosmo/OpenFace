@@ -62,7 +62,7 @@
 # OpenCV Dependency
 echo "Downloading OpenCV..."
 # wget https://github.com/opencv/opencv/archive/4.1.0.zip
-unzip 4.1.0.zip
+# unzip opencv-4.1.0.zip
 cd opencv-4.1.0
 mkdir -p build
 cd build
@@ -78,7 +78,7 @@ echo "OpenCV installed."
 # dlib dependecy
 echo "Downloading dlib"
 # wget http://dlib.net/files/dlib-19.13.tar.bz2;
-tar xf dlib-19.13.tar.bz2;
+# tar xf dlib-19.13.tar.bz2;
 cd dlib-19.13;
 mkdir -p build;
 cd build;
